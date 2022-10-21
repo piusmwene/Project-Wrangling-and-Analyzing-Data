@@ -7,7 +7,7 @@ In this project, we use real -world data and it inloves the flowwing process:
 - Data cleaning which consists of quality and tidiness issues.
 
 ### Data Gathering
-The Data sets used in the data wrangling project include twitter-archive-enhanced, image-predictions, and tweet-json. The twitter-archive –enhanced was provided by Udacity where we downloaded the manually into Juypter notebook. The URL for image –prediction dataset was provided by Udacity which was downloaded programmatically. Tweet-json data was dowloaded usig tweepy and json which were imported into juypter notebook. After downloading the JSON file, we use API which helps to read line by line for favorite_count, retweet_count, and tweet_id in the JSON file.
+The Data sets used in the data wrangling project include twitter-archive-enhanced, image-predictions, and tweet-json. The twitter-archive –enhanced was provided by Udacity where we downloaded the manually into Juypter notebook. The URL for image –prediction dataset was provided by Udacity which was downloaded programmatically. Tweet-json data was dowloaded using tweepy and json which were imported into juypter notebook. After downloading the JSON file, we use API which helps to read line by line for favorite_count, retweet_count, and tweet_id in the JSON file.
 
 ### Data assessment¶
 The assessment of data was done visually and programmatically. Each data was displayed in the juypter which was manually assessed for quality and tidiness issues. However, assessing data programmatically, a function such as pandas was used to assess the quality and tidiness of the data. After assessing data visual and programmatically, the following issues of quality and tidiness were identified in three data sets:
